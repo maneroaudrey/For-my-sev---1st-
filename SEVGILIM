@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Monthsary ❤️</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container {
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+
+    .message {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .heart {
+      font-size: 50px;
+      animation: beat 1s infinite;
+    }
+
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    button {
+      margin-top: 30px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background-color: #fff;
+      color: #ff6f91;
+      font-size: 1em;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #ffe0e6;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="heart">❤️</div>
+    <h1>Happy Monthsary!</h1>
+    <h2>March 23</h2>
+
+    <p class="message">
+  1st month with you, but it feels like forever. I've known you since 2024, yet you’ve never changed.
+  Thank you for giving me the chance to prove my love for you, and of course, for loving me unconditionally.
+  I'm so happy with everything that's happening to us, sev—from introducing you to my family and friends, to finally being your girlfriend.
+  <br><br>
+  I love everything about you—your smile, your scent, your body ;), your mindset. I love you for being you, baby.
+  <br><br>
+  Baby, I promise that I’ll wait until we see each other again and until the day we finally get to live together in one house.
+  I’ll make bawi when we meet again, baby, but for now, this website muna is my gift for you hehe.
+  <br><br>
+  I miss you so much, baby. Sana talaga ikasal na tayo.
+  I’m always here for you, baby, kahit 3,000 miles ang layo mo. Always remember that you have a girlfriend named Audrey Eunice Manero—soon to be yours. 💖
+  <br><br>
+  I love you so much, baby ko!
+</p>
+
+    <button onclick="showMessage()">Click me 💌</button>
+  </div>
+
+  <script>
+    function showMessage() {
+      alert("You are my favorite person, no matter the distance ❤️");
+    }
+  </script>
+
+</body>
+</html>
